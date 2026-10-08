@@ -736,7 +736,7 @@ h2 {
   margin-top: 0;
 }
 .project-offset-small {
-  margin-top: 0;
+  margin-top: -45px;
 }
 .project-image {
   position: relative;
@@ -1496,8 +1496,7 @@ h2 {
     column-gap: 18px;
     row-gap: 36px;
   }
-  .project-offset,
-  .project-offset-small {
+  .project-offset {
     margin-top: 0;
   }
   .project-tall .project-image {
@@ -1668,9 +1667,8 @@ h2 {
     grid-template-columns: 1fr;
     row-gap: 30px;
   }
-  .project-offset,
   .project-offset-small {
-    margin-top: 0;
+    margin-top: -15px;
   }
   .project-card:not(.project-tall) .project-image,
   .project-tall .project-image {
@@ -1678,10 +1676,6 @@ h2 {
   }
   .form-row {
     grid-template-columns: 1fr;
-    gap: 21px;
-  }
-}
-
     gap: 21px;
   }
 }
