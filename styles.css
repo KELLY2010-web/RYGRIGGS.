@@ -1496,11 +1496,9 @@ h2 {
     column-gap: 18px;
     row-gap: 36px;
   }
-  .project-offset {
-    margin-top: 65px;
-  }
+  .project-offset,
   .project-offset-small {
-    margin-top: -45px;
+    margin-top: 0;
   }
   .project-tall .project-image {
     aspect-ratio: 0.86 / 1;
